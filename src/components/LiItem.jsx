@@ -2,9 +2,9 @@ import React from 'react'
 import {BiChevronDown} from 'react-icons/bi'
 function LiItem() {
   return (
-    <li className='flex items-center justify-between  rounded-[5px]  border-[#424242] border-[1.8px] text-[15px] w-full p-2 px-3 text-white'>
-      <div className='flex items-start flex-col gap-1'>
-        <span className='font-semibold text-[16px]'>Choco Land</span>
+    <li className='flex items-center justify-between  rounded-[5px]  border-[#424242] border-[1.8px] text-[15px] w-full  px-3 text-white'>
+      <div className='flex items-start flex-col'>
+        <span className='font-semibold text-[14px]'>Choco Land</span>
         <span className='text-[12px] text-primaryText'>08-09-2023 at 23:20:05</span>
       </div>
       <div className='flex items-center'>
