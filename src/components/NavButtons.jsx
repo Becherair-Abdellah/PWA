@@ -7,7 +7,7 @@ import {MdOutlineLocalOffer} from 'react-icons/md'
 import {FaRegUser} from 'react-icons/fa'
 function NavButtons() {
   return (
-    <div className='flex justify-between items-center mt-6  fixed left-0 bottom-0 w-full p-4 bg-gray-900'>
+    <div className='flex justify-between items-center mt-6  fixed left-0 bottom-0 w-full p-4 bg-gray-900 z-[11]'>
         <span className='absolute left-0 bottom-[4.4rem] w-full h-[1px] bg-gray-700'></span>
       <ControlBtn title='Receipts' icon={<MdReceipt size={20}/>} />
       <ControlBtn title='Statistics' icon={<ImStatsBars size={20}/>} />
