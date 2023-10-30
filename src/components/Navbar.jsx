@@ -13,7 +13,7 @@ function Navbar() {
         </div>
       </div>
       <h1 className='text-[17px] text-white font-semibold my-4'>Welcom To <strong className='text-primary'>FTR Client</strong></h1>
-      <p className='text-white text-[13px]'>Let Store Owners Scan Your Barcode</p>
+      <p className='text-white text-[13px] font-semibold'>Let Store Owners Scan Your Barcode</p>
     </div>
   )
 }
